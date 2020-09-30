@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AvengersApp</string>
+
+
+
+
+    <string-array name="currency_array">
+        <item>DOLLAR $</item>
+        <item>EURO €</item>
+        <item>YEN ¥</item>
+        <item>POUND £</item>
+    </string-array>
+
+    <string name="app_name_currency">Währungsrechner</string>
+    <string name="from">VON</string>
+    <string name="to">NACH</string>
+    <string name="enter_value">BETRAG EINGEBEN</string>
+    <string name="exRate">Wechselkurs</string>
+    <string name="result">Betrag</string>
+    <string name="calculate">BERECHNEN</string>
+
+</resources>
