@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     DecimalFormat f_exRate = new DecimalFormat("#0.0000");
     DecimalFormat f_result = new DecimalFormat("#0.00");
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,11 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }  // ENDE OnCreate
 
-
-
     @Override
-
-
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         calculate(spinner_from, spinner_to);
     }
