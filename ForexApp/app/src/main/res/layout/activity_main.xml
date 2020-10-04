@@ -8,24 +8,10 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/BT_recalc_right"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
-        android:background="@android:color/transparent"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline6"
-        app:layout_constraintTop_toTopOf="@+id/guideline16"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_notify_sync" />
-
-    <ImageButton
         android:id="@+id/BT_reset_value_left"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_margin="2dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
         app:layout_constraintEnd_toStartOf="@+id/ET_userInput"
@@ -82,7 +68,6 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
-    //android:entries="@array/currency_array"
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
@@ -123,7 +108,6 @@
         android:background="@android:color/white"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:numeric="decimal"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="30sp"
@@ -295,20 +279,5 @@
         app:layout_constraintStart_toEndOf="@+id/ET_userInput"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
         app:srcCompat="@android:drawable/btn_dialog" />
-
-    <ImageButton
-        android:id="@+id/BT_recalc_left"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
-        android:background="@android:color/transparent"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintEnd_toStartOf="@+id/BT_reset_value_left"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline16"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/stat_notify_sync" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AvengersApp</string>
+    <string name="app_name">ForexApp</string>
 
 
 
@@ -18,5 +18,8 @@
     <string name="exRate">Wechselkurs</string>
     <string name="result">Betrag</string>
     <string name="calculate">BERECHNEN</string>
+    <string name="invalidateChoice">Auswahl überprüfen</string>
+    <string name="illegal_choice">Auswahl überprüfen</string>
+    <string name="please_insert_value">Bitte Betrag eingeben</string>
 
 </resources>
