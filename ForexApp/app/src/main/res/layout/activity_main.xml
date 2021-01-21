@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:drawable/editbox_dropdown_dark_frame"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -163,7 +163,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95" />
+        app:layout_constraintGuide_percent="0.97" />
 
     <TextView
         android:id="@+id/TV_result"
@@ -296,6 +296,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline16"
         app:srcCompat="@android:drawable/btn_dialog" />
 
+<<<<<<< Updated upstream
     <ImageButton
         android:id="@+id/BT_recalc_left"
         android:layout_width="0dp"
@@ -310,5 +311,17 @@
         app:layout_constraintTop_toTopOf="@+id/guideline16"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@android:drawable/stat_notify_sync" />
+=======
+    <Button
+        android:id="@+id/BT_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="KURSE AKTUALISIEREN"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/TV_result" />
+>>>>>>> Stashed changes
 
 </androidx.constraintlayout.widget.ConstraintLayout>

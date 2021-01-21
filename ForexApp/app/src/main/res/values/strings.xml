@@ -8,7 +8,7 @@
         <item>DOLLAR $</item>
         <item>EURO €</item>
         <item>YEN ¥</item>
-        <item>POUND £</item>
+      <!--  <item>POUND £</item> -->
     </string-array>
 
     <string name="app_name_currency">Währungsrechner</string>
